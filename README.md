@@ -3,7 +3,9 @@
 Software Reset Tool for X680x0/Human68k
 
 CTRL + OPT.1 + DEL を押したのと同じく、ソフトリセットをかけます。
-キーボードの事情で CTRL + OPT.1 + DEL を押せない環境向け。
+何らかのキーボードの事情で CTRL + OPT.1 + DEL を押せない環境向け。
+
+NOTE: X68000Z に一般的なUSBキーボードを接続した場合は CTRL + F11 + DEL でソフトリセットをかけることができます。
 
 ---
 
