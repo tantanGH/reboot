@@ -1,5 +1,4 @@
 #include <stdint.h>
-#include <string.h>
 
 void main(int32_t argc, uint8_t* argv[]) {
 
