@@ -3,10 +3,11 @@
 
 void main(int32_t argc, uint8_t* argv[]) {
 
-  register uint32_t reg_d0 asm ("d0") = 0x58363804;   // 'X68' + 4 ... soft reset
+  // 'X68' + 4 ... soft reset
+  register uint32_t reg_d0 asm ("d0") = 0x58363804;  
   
   asm volatile (
-    "trap #10\n"         // trap #2
+    "trap #10\n"        // trap #10
     :                   // output (&input) operand
     : "r"   (reg_d0)    // input operand
     :                   // clobbered register
